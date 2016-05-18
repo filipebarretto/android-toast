@@ -54,7 +54,7 @@ Then, include a line with two buttons:
             android:layout_weight="1"
             android:background="@android:color/holo_green_dark"
             android:textColor="@android:color/white"
-            android:text=“Do or do not“ />
+            android:text=“Yoda“ />
 
         <Button
             android:id="@+id/vaderButton"
@@ -63,7 +63,7 @@ Then, include a line with two buttons:
             android:layout_weight="1"
             android:background="@android:color/holo_red_dark"
             android:textColor="@android:color/white"
-            android:text=“I am your father“ />
+            android:text=“Vader“ />
 
     </LinearLayout>
 ```
@@ -104,7 +104,7 @@ Now, set the click events for each button
 
 ### Create Toast
 
-Finally, create a Toast:
+Finally, create a Toast inside the click event onClick method for each button, such as:
 
 ```java
 Toast.makeText(MainActivity.this, “Do or do not! There is no try!”, Toast.LENGTH_LONG).show();
