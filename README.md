@@ -54,7 +54,7 @@ Then, include a line with two buttons:
             android:layout_weight="1"
             android:background="@android:color/holo_green_dark"
             android:textColor="@android:color/white"
-            android:text="@string/yoda" />
+            android:text=“Do or do not“ />
 
         <Button
             android:id="@+id/vaderButton"
@@ -63,7 +63,7 @@ Then, include a line with two buttons:
             android:layout_weight="1"
             android:background="@android:color/holo_red_dark"
             android:textColor="@android:color/white"
-            android:text="@string/vader" />
+            android:text=“I am your father“ />
 
     </LinearLayout>
 ```
