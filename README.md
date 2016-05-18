@@ -9,8 +9,17 @@ Sample Android application to show a Toast on a button click
 
 ### Table of Contents
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Getting Started](#getting-started)
+  - [Create Android Studio Project](#create-android-studio-project)
+  - [Configure Layout File](#configure-layout-file)
+  - [Configure Click Events](#configure-click-events)
+  - [Create Toast](#create-toast)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 ## Getting Started
