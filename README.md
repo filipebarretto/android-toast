@@ -80,8 +80,8 @@ On MainActivity.java, first we need to declare the buttons we want to control. R
 Then, inside the onCreate method, attach the buttons to the xml elements by their id.
 
 ```java
-    yodaButton = (Button) findViewById(R.id.yodaButton);
-    vaderButton = (Button) findViewById(R.id.vaderButton);
+        yodaButton = (Button) findViewById(R.id.yodaButton);
+        vaderButton = (Button) findViewById(R.id.vaderButton);
 ```
 
 Now, set the click events for each button
@@ -108,7 +108,7 @@ Finally, create a Toast:
 
 ```java
 Toast.makeText(MainActivity.this, “Do or do not! There is no try!”, Toast.LENGTH_LONG).show();
-```java
+```
 
 ### Run project
 
