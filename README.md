@@ -5,7 +5,7 @@
 Sample Android application to show a Toast on a button click
 
 ### Version
-1.0.0
+1.0.2
 
 ### Table of Contents
 
