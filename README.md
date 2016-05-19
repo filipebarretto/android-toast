@@ -115,8 +115,6 @@ Toast.makeText(MainActivity.this, “Do or do not! There is no try!”, Toast.LE
 To run your project on Android Studio as it was generated, click Run > Run ‘app’, or the play icon on the top bar.
 The project ran should look something like:
 
-![Android Hello World](/screenshots/android-toast-1.png)
-
-
-
-
+<p align="center">
+<img src="/screenshots/android-toast-1.png" alt="Android Toast" width="256">
+<p>
