@@ -5,7 +5,7 @@
 Sample Android application to show a Toast on a button click
 
 ### Version
-1.0.2
+1.1.0
 
 ### Table of Contents
 
@@ -32,13 +32,7 @@ To create the Android Studio Project, you can follow the instructions or downloa
 
 ### Configure Layout File
 
-To configure your activity_main.xml layout file, first replace RelativeLayout with LinearLayout and include the xml:
-
-```xml
-android:orientation="vertical"
-```
-
-Then, include a line with two buttons:
+To configure your activity_main.xml layout file, first replace RelativeLayout with LinearLayout and include a line with two buttons:
 
 ```xml
     <LinearLayout
@@ -48,22 +42,22 @@ Then, include a line with two buttons:
         android:weightSum="2">
 
         <Button
-            android:id="@+id/yodaButton"
+            android:id="@+id/biscoitoButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/holo_green_dark"
             android:textColor="@android:color/white"
-            android:text=“Yoda“ />
+            android:text=“Biscoito“ />
 
         <Button
-            android:id="@+id/vaderButton"
+            android:id="@+id/bolachaButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/holo_red_dark"
             android:textColor="@android:color/white"
-            android:text=“Vader“ />
+            android:text=“Bolacha“ />
 
     </LinearLayout>
 ```
@@ -73,28 +67,28 @@ Then, include a line with two buttons:
 On MainActivity.java, first we need to declare the buttons we want to control. Right after the class declaration, declare the buttons:
 
 ```java
-    private Button yodaButton;
-    private Button vaderButton;
+    private Button mBiscoitoButton;
+    private Button mBolachaButton;
 ```
 
 Then, inside the onCreate method, attach the buttons to the xml elements by their id.
 
 ```java
-        yodaButton = (Button) findViewById(R.id.yodaButton);
-        vaderButton = (Button) findViewById(R.id.vaderButton);
+        mBiscoitoButton = (Button) findViewById(R.id.biscoitoButton);
+        mBolachaButton = (Button) findViewById(R.id.bolachaButton);
 ```
 
 Now, set the click events for each button
 
 ```java
-        yodaButton.setOnClickListener(new View.OnClickListener() {
+        mBiscoitoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
         });
 
-        vaderButton.setOnClickListener(new View.OnClickListener() {
+        mBolachaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -107,7 +101,7 @@ Now, set the click events for each button
 Finally, create a Toast inside the click event onClick method for each button, such as:
 
 ```java
-Toast.makeText(MainActivity.this, “Do or do not! There is no try!”, Toast.LENGTH_LONG).show();
+Toast.makeText(MainActivity.this, “Do globo ao traquinas, é Biscoito!”, Toast.LENGTH_LONG).show();
 ```
 
 ### Run project
