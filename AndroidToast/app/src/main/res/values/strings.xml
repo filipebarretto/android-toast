@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Android Toast</string>
 
-    <string name="yoda_button">Yoda</string>
-    <string name="vader_button">Vader</string>
+    <string name="biscoito_button">Biscoito</string>
+    <string name="bolacha_button">Bolacha</string>
 
-    <string name="yoda_toast">Do or do not! There is no try!</string>
-    <string name="vader_toast">Luke, I am your father!</string>
+    <string name="biscoito_toast">Do globo ao traquinas, é Biscoito!</string>
+    <string name="bolacha_toast">Se tem recheio, é Bolacha!</string>
 </resources>
